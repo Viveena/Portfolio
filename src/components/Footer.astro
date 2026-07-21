@@ -70,7 +70,34 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               ></path></svg
             >
           </a>
-          
+          <a
+          href={siteConfig.resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Resume"
+          class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+          style={`--accent-color: ${siteConfig.accentColor}`}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-6 w-6"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />
+            <path d="M14 3v6h6" />
+            <path d="M9 13h6" />
+            <path d="M9 17h6" />
+            <path d="M9 9h1" />
+          </svg>
+        </a>
           <a
             href={siteConfig.social.github}
             target="_blank"

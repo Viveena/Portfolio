@@ -3,6 +3,7 @@ export const siteConfig = {
   title: "Data Engineer | PySpark • Databricks • SQL • Kafka • Airflow",
   description: "Portfolio website of Viveena Khatri",
   accentColor: "#FF3621",
+  resume: "/resume.pdf",
   social: {
     email: "viveenak@gmail.com",
     linkedin: "https://linkedin.com/in/viveenakhatri/",
